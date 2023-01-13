@@ -12,6 +12,7 @@ body{
     width: 870px;
     background-color: #FFFFFF;
     padding: 20px 20px 20px 30px;
+    margin:20px 0;
 }
 .container > h2{
     font-family: 'Poppins';
@@ -44,6 +45,38 @@ body{
 }
 
 hr{
-    border: 1px solid #ac1313;
+    border: 1px solid #D1D1D1;
+}
+/*------------------------
+     Blogs styles
+------------------------ */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap:45px;
 }
 
+.blog{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.pic img{
+    width:224px;
+    height:127px;
+}
+.blog .blg-title h2{
+font-weight: 500;
+font-size: 20px;
+color: #000000;
+margin:0px ;
+
+}
+.blog .blg-title p{
+    color:#9F9F9F;
+}
+.blog .blg-title p a{
+    text-decoration: none;
+}
