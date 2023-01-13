@@ -3,6 +3,9 @@
 
 
 body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #E5E5E5;
     font-family: 'Poppins', sans-serif;
 }
@@ -80,3 +83,60 @@ margin:0px ;
 .blog .blg-title p a{
     text-decoration: none;
 }
+/*-----------------
+     late course
+--------------- */
+.late-course{
+    width: 870px;
+    background-color: #FFFFFF;
+    padding: 20px 20px 20px 30px;
+    margin:20px 0;
+}
+.footer{
+    display: flex;
+    gap:25px;
+    align-items: stretch;
+}
+.late-course h2{
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #562EFF;
+}
+.image img{
+    width: 266px;
+    height: 141px;
+}
+
+.img-title h3{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+color: #1E1E1E;
+width:170px;
+}
+
+.img-title p a{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 15px;
+color: #ED6B4F;
+text-decoration: none;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.star{
+    display: flex;
+}
+
+.star .fa-star.icn{
+    color: #FFC014;
+}
+.star .fa-star.unfild{
+   color:#AEAEAE
+}
+
+
